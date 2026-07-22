@@ -195,8 +195,6 @@ const InputX = forwardRef(function InputX(
     }, [currentValue, listQueries]);
 
     const renderLegacyIcon = () => {
-        if (!Icon) return null;
-
         return typeof Icon === "function" ? <Icon size={iconSize} /> : Icon;
     };
 
