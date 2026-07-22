@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "Reusable React input with controlled/uncontrolled modes, clear actions, adornments, and debounced callbacks",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsocr88/react-inputx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wilsocr88/react-inputx/issues"
+  },
+  "homepage": "https://github.com/wilsocr88/react-inputx#readme",
   "main": "lib/index.cjs",
   "module": "lib/index.js",
   "exports": {
