@@ -1,6 +1,6 @@
 {
   "name": "react-inputx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable React input with controlled/uncontrolled modes, clear actions, adornments, and debounced callbacks",
   "license": "MIT",
   "repository": {
