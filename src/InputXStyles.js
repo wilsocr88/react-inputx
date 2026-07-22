@@ -1,0 +1,51 @@
+export const styles = {
+    container: {
+        position: "relative",
+        display: "flex",
+        alignItems: "center",
+        width: "100%",
+    },
+    startAdornment: {
+        position: "absolute",
+        left: "0.75rem",
+        zIndex: 1,
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        color: "#6b7280",
+        cursor: "pointer",
+    },
+    endAdornment: {
+        position: "absolute",
+        right: "2.25rem",
+        zIndex: 1,
+        display: "inline-flex",
+        alignItems: "center",
+        justifyContent: "center",
+        color: "#6b7280",
+    },
+    input: {
+        width: "100%",
+        minHeight: "2.75rem",
+        border: "1px solid #d1d5db",
+        borderRadius: "0.75rem",
+        fontSize: "1rem",
+        lineHeight: 1.4,
+        color: "#111827",
+        backgroundColor: "#ffffff",
+        padding: "0.6rem 0.85rem",
+    },
+    inputWithStartAdornment: {
+        paddingLeft: "2.35rem",
+    },
+    inputWithEndAdornment: {
+        paddingRight: "2.35rem",
+    },
+    clearButton: {
+        position: "absolute",
+        right: "0.75rem",
+        color: "#6b7280",
+        cursor: "pointer",
+        zIndex: 1,
+    },
+};
