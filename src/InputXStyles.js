@@ -7,7 +7,7 @@ export const styles = {
     },
     startAdornment: {
         position: "absolute",
-        left: "0.75rem",
+        left: "0.5rem",
         zIndex: 1,
         display: "inline-flex",
         alignItems: "center",
